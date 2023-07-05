@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fer-2013"
+version = "0.1.0"
+description = ""
+authors = ["Vinicius <viniciussalvador03@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fer_2013"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+kaggle = "^1.5.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
