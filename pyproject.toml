@@ -2,13 +2,20 @@
 name = "fer-2013"
 version = "0.1.0"
 description = ""
-authors = ["Vinicius <viniciussalvador03@gmail.com>"]
+authors = ["viniciusslvdor <viniciussalvador03@gmail.com>"]
 readme = "README.md"
 packages = [{include = "fer_2013"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8.10,<3.11"
 kaggle = "^1.5.15"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+seaborn = "^0.12.2"
+tensorflow-io-gcs-filesystem = "<0.31.0"
+tensorflow = "^2.13.0"
+ipykernel = "^6.24.0"
+mlxtend = "^0.22.0"
 
 
 [build-system]
